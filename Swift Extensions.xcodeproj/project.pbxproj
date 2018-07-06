@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		876E881620EFB65A0080B6D7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 876E881520EFB6590080B6D7 /* README.md */; };
+		876E881820EFBDA30080B6D7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876E881720EFBDA30080B6D7 /* Extensions.swift */; };
 		87D2285220EFAF1D002D788E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D2285120EFAF1D002D788E /* AppDelegate.swift */; };
 		87D2285420EFAF1D002D788E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D2285320EFAF1D002D788E /* ViewController.swift */; };
 		87D2285720EFAF1D002D788E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87D2285520EFAF1D002D788E /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		876E881520EFB6590080B6D7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		876E881720EFBDA30080B6D7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		87D2284E20EFAF1D002D788E /* Swift Extensions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Extensions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87D2285120EFAF1D002D788E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87D2285320EFAF1D002D788E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +63,7 @@
 		87D2284520EFAF1D002D788E = {
 			isa = PBXGroup;
 			children = (
+				876E881520EFB6590080B6D7 /* README.md */,
 				87D2285020EFAF1D002D788E /* Swift Extensions */,
 				87D2286520EFAF1F002D788E /* Swift ExtensionsTests */,
 				87D2284F20EFAF1D002D788E /* Products */,
@@ -83,6 +88,7 @@
 				87D2285820EFAF1F002D788E /* Assets.xcassets */,
 				87D2285A20EFAF1F002D788E /* LaunchScreen.storyboard */,
 				87D2285D20EFAF1F002D788E /* Info.plist */,
+				876E881720EFBDA30080B6D7 /* Extensions.swift */,
 			);
 			path = "Swift Extensions";
 			sourceTree = "<group>";
@@ -179,6 +185,7 @@
 			files = (
 				87D2285C20EFAF1F002D788E /* LaunchScreen.storyboard in Resources */,
 				87D2285920EFAF1F002D788E /* Assets.xcassets in Resources */,
+				876E881620EFB65A0080B6D7 /* README.md in Resources */,
 				87D2285720EFAF1D002D788E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87D2285420EFAF1D002D788E /* ViewController.swift in Sources */,
+				876E881820EFBDA30080B6D7 /* Extensions.swift in Sources */,
 				87D2285220EFAF1D002D788E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
