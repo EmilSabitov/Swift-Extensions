@@ -38,21 +38,14 @@ extension Date {
         let components = calendar.dateComponents([Calendar.Component.day], from: startDate, to: endDate)
         return components.day!
     }
-    func days(days:Int) -> Date {
+    func add(days:Int) -> Date {
         return Calendar.current.date(byAdding: .day, value: days, to: Date())!
-        
     }
-    func dateByAddingDays(days: Int) -> Date {
-        return self.days(days: days)
+    func add(months:Int) -> Date {
+        return Calendar.current.date(byAdding: .month, value: months, to: Date())!
     }
-    
-    func dateBySubstractingDays(days: Int) -> Date {
-        return self.days(days: -days)
-    }
-    var month: String {
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "M"
-        return dateFormatter.string(from: self)
+    func add(years:Int) -> Date {
+        return Calendar.current.date(byAdding: .year, value: years, to: Date())!
     }
     
     
@@ -331,15 +324,12 @@ extension Float
     }
 }
 extension String {
-    func combineString(from: [String]) -> String {
-        
-        
-        var allText: String = "";
+    func combineString(from: [String], divider: String = "\n") -> String {
+       var allText: String = "";
         for t in from {
             allText.append(t)
-            allText.append("\n")
+            allText.append(divider)
         }
-        
         return allText
         
     }
